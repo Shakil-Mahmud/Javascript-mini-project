@@ -1,0 +1,27 @@
+.height-80{
+    min-height: 80vh;
+}
+
+body{
+    background: #fff;
+}
+.bg{
+    background: #0099ff;
+}
+.bg-deep{
+    background: #eeeeff;
+}
+
+.remove.success{
+    min-width: auto;
+    min-height: auto;
+    text-align: center;
+}
+
+.remove{
+    background: red;
+}
+
+.success{
+    background: green;
+}

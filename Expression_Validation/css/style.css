@@ -1,0 +1,16 @@
+.height-60{
+    min-height: 60vh;
+}
+.height-100{
+    min-height: 100vh;
+}
+
+.bg{
+    background: #e9ecef;
+}
+.bg-1{
+    background: #6c757d;
+}
+body{
+    background: #f8f9fa;
+}
