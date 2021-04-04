@@ -1,4 +1,4 @@
-const Data = [
+export let Data = [
     {
         "timezone": "Africa/Abidjan",
         "UTC": "+00:00"
@@ -2375,4 +2375,4 @@ const Data = [
         "timezone": "Zulu",
         "UTC": "+00:00"
         }
-]
+];
