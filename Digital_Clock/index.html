@@ -8,18 +8,24 @@
     	rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" 
     crossorigin="anonymous">
 
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
-
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
     <title>Digital Clock</title>
 </head>
 <body>
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<div id="clock">
-					<div class="bg-danger mx-auto w-25 text-center m-2 border-circle">
-						<h1 id="time">hh:mm:ss</h1>
+				<div id="clock" class="card my-2">
+					<div class="card-body row day">
+						<div class="col-sm-6 align-items-center">
+							<span class="h1">Dhaka</span>
+							<span>local time</span>
+						</div>
+						<div class="w-25 text-center m-2 border-circle dayIn col-sm-6 p-1 rounded">
+							<h1 id="time">hh:mm:ss</h1>
+						</div>
 					</div>
 				</div>
 			</div>

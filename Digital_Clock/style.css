@@ -2,3 +2,16 @@
 .clockFont{
     font-family: 'Dela Gothic One', cursive;
 }
+
+.day{
+    background-color: white;
+}
+
+.dayIn{
+    background-color: #f3f4ed;
+}
+
+.singleClock{
+    border-width: 2px;
+    max-width: fit-content;
+}
